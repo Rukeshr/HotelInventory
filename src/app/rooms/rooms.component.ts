@@ -43,4 +43,7 @@ export class RoomsComponent {
       checkOutDate : new Date('13-Nov-2022'),
     }
   ]
+  selectRoom(room: RoomList){
+    console.log(room)
+  }
 }
